@@ -58,7 +58,7 @@ void cmd_handleinput(Keyboard* keyboard)
 					{
 						cmd_help();
 					}
-					if(strcmp(inbuffer,"dir") == 0)
+					if(strcmp(inbuffer,"dir") == 0 || strcmp(inbuffer,"ls") == 0)
 					{
 						cmd_displaydir();
 					}
